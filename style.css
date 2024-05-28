@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+}
+.nav-container{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    
+}
+.log-container{
+    width: 100px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.log{
+    width: 100px;
+    height: 50px;
+    background: white;
+}
+.map-container{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 50px;
+    align-items: center;   
+}
+.county{
+    font-size: 20px;
+}
+
+.map-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px; 
+    margin-right: 17px;
+}
+
+.search-container{
+    color: white;
+    width: 600px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+.section-container{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(150, 141, 141);
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.input-field{
+    width: 550px;
+    height: 50px;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+}
+.Search{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    background-color: white;
+}
+.account-container{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+.account-list{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20x;
+}
+.return-order-container{
+    color: white;
+}
+.cart-container{
+    color: white;
+    font-size: 30px;
+}
+.next-nav-container{
+    width: 100%;
+    height: 34px;
+    background-color : rgb(46, 42, 42);
+    display: flex;
+    gap: 40px;
+    color: white;
+    align-items: center;
+}
+
+.service-container{
+    display:flex;
+    gap: 20px;
+}
+.hero-section {
+    width: 100%;
+    height: 600px;
+    position: relative; 
+}
+
+.img-container {
+    width: 100%;
+    height: 600px;
+    position: relative; 
+    z-index: 0; 
+}
+
+.body-img {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.products-container {
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    margin-top: 350px;
+    margin-left: -550px;
+    width: 373px;
+    height: 420px;
+    background-color: white;
+    z-index: 1; 
+    transform: translateX(-50%); 
+    text-align: center;
+    
+}
+.game-accessories1{
+    display: flex; 
+    margin-top: 50px;
+}
+.game-accessories2{
+    display: flex;
+    margin-top: 25px;
+}
+.products-container-1{
+    position: absolute;
+    left: 410px;
+    top: 350px;
+    width: 390px;
+    height: 420px;
+    background-color: white;
+    z-index: 1; 
+}
+.see{
+    margin-left: -330px;
+    margin-top: 150px;
+}
+.see-more{
+    
+    text-decoration: none;
+    color: rgb(13, 127, 172);
+}
+.see-more:hover{
+    color: red;
+}
+.products-container3{
+    position: absolute;
+    left: 810px;
+    top: 350px;
+    width: 390px;
+    height: 420px;
+    background-color: white;
+    z-index: 1; 
+}
+.game-accessories3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 45px;
+}
+.game-accessories4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 45px;
+}
+.shop{
+    margin-top: 54px;
+}
+.shop-now{
+    text-decoration: none;
+    color: rgb(13, 127, 172);
+}
+.shop-now:hover{
+    color: red;
+}
+.sss{
+    margin-top: 42px;
+}
+.s-more{
+    text-decoration: none;
+    color: rgb(13, 127, 172);
+}
+.s-more:hover{
+    color: red;
+}
+.products-container4{
+    position: absolute;
+    left: 1210px;
+    top: 350px;
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    z-index: 1; 
+}
+.Smartphones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game-accessories4{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.Gadgets{
+    margin-top: 42px;
+}
+.Gadgets-mo{
+    text-decoration: none;
+    color: rgb(13, 127, 172);
+}
+.Gadgets-mo:hover{
+    color: red;
+}
+.best-sellers {
+    position: absolute;
+    width: 100%;
+    height: 221px;
+    margin-top: 200px;
+    background-color: white;
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    position: relative; 
+    animation-name: slider; 
+    animation-duration: 10s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+    animation-direction: normal; 
+    animation-play-state: running; 
+    animation-fill-mode: forwards; 
+    animation-delay: 0s; 
+    
+
+}
+
+
+@keyframes slider {
+    0% {
+        transform: translateX(0); /
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
